@@ -1,0 +1,81 @@
+
+ 
+ .was-validated .form-check-input:invalid:focus, .form-check-input.is-invalid:focus {
+   box-shadow: 0 0 0 0.25rem rgba(229, 37, 39, 0.25);
+ }
+ 
+ .was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {
+   color: #e52527;
+ }
+ 
+ .form-check-inline .form-check-input ~ .invalid-feedback {
+   margin-left: .5em;
+ }
+ 
+ .was-validated .input-group .form-control:invalid, .input-group .form-control.is-invalid, .was-validated
+ .input-group .form-select:invalid,
+ .input-group .form-select.is-invalid {
+   z-index: 2;
+ }
+ 
+ .was-validated .input-group .form-control:invalid:focus, .input-group .form-control.is-invalid:focus, .was-validated
+ .input-group .form-select:invalid:focus,
+ .input-group .form-select.is-invalid:focus {
+   z-index: 3;
+ }
+ 
+ .btn {
+   display: inline-block;
+   font-weight: 600;
+   line-height: 1.5;
+   color: #7b8ab8;
+.navbar-brand img{
+    size: 50px;
+}
+ 
+ 
+}
+ 
+ .border-bottom {
+   border-bottom: 0 solid rgba(55, 94, 148, 0.1) !important;
+ }
+ 
+ .border-bottom-0 {
+   border-bottom: 0 !important;
+ }
+ 
+ 
+ 
+  
+ body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+ 
+  /* Mis trabajos */
+  
+  #Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+  
