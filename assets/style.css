@@ -1,76 +1,45 @@
 
- 
- .was-validated .form-check-input:invalid:focus, .form-check-input.is-invalid:focus {
-   box-shadow: 0 0 0 0.25rem rgba(229, 37, 39, 0.25);
- }
- 
- .was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {
-   color: #e52527;
- }
- 
- .form-check-inline .form-check-input ~ .invalid-feedback {
-   margin-left: .5em;
- }
- 
- .was-validated .input-group .form-control:invalid, .input-group .form-control.is-invalid, .was-validated
- .input-group .form-select:invalid,
- .input-group .form-select.is-invalid {
-   z-index: 2;
- }
- 
- .was-validated .input-group .form-control:invalid:focus, .input-group .form-control.is-invalid:focus, .was-validated
- .input-group .form-select:invalid:focus,
- .input-group .form-select.is-invalid:focus {
-   z-index: 3;
- }
- 
- .btn {
-   display: inline-block;
-   font-weight: 600;
-   line-height: 1.5;
-   color: #7b8ab8;
-}
- 
- .border-bottom {
-   border-bottom: 0 solid rgba(55, 94, 148, 0.1) !important;
- }
- 
- .border-bottom-0 {
-   border-bottom: 0 !important;
- }
- 
- 
- 
-  
- body {
+body {
     font-family: "Raleway", sans-serif;
+    color: white;
+    background-color: black;
   }
   
- 
+  /* Hero Section */
+  
+.header-section {
+    color: white;
+    background-image: url("../assets/imgs/matrix.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*carousel*/
+.carouselExampleDark{
+    color: white;
+}
   /* Mis trabajos */
   
-  #Mis-trabajos .image-top {
-    height: 250px;
+#Mis-trabajos .image-top {
+    height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: #373a3c;
   }
   
   /* Contacto */
   
-  #Contacto form label {
+#Contacto form label {
     font-weight: 700;
     color: #373a3c;
   }
   
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     #Contacto form label {
       font-weight: 400;
     }
   
-    .navbar-brand{
+.navbar-brand{
       width: 100px;
     }
-  
-  }
-  
