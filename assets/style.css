@@ -1,31 +1,58 @@
 
 body {
+    
     font-family: "Raleway", sans-serif;
     color: white;
     background-color: black;
+   
   }
+  .single-line {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
+  }
+  /* header Section */
   
-  /* Hero Section */
-  
-.header-section {
+.header-section img {
+    /*margin-right: 200px;*/
+    
+    display: inline-block;
+    width: 800px;
+    height: 400px;
+    /*background-size: cover;*/
+  }
+.header-section-letras{
+    position: absolute;
+    top: 60px;
+    right: 10px;
     color: white;
-    background-image: url("../assets/imgs/matrix.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
-  /*carousel*/
-.carouselExampleDark{
-    color: white;
 }
-  /* Mis trabajos */
+.header-section-letras2{
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    color: white;
+ }
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.carousel-item> img {
+    width: 320px; 
+    height: 440px; 
+   }
+   /* Mis trabajos */
   
 #Mis-trabajos .image-top {
-    height: 450px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #373a3c;
+    
   }
   
   /* Contacto */
@@ -34,7 +61,12 @@ body {
     font-weight: 700;
     color: #373a3c;
   }
-  
+.col img{
+    height: 200px;
+}
+.col h5{
+    color: black;
+}
 @media (max-width: 768px) {
     #Contacto form label {
       font-weight: 400;
