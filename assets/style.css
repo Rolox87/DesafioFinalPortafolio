@@ -18,8 +18,9 @@ body {
     /*margin-right: 200px;*/
     
     display: inline-block;
-    width: 800px;
+    /*width: 800px;*/
     height: 400px;
+
     /*background-size: cover;*/
   }
 .header-section-letras{
@@ -52,8 +53,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
-  }
+    background-color: #373a3c;
+}
+#Mis-trabajos .card {
+    background-color: #373a3c;
+}
   
   /* Contacto */
   
@@ -75,3 +79,6 @@ body {
 .navbar-brand{
       width: 100px;
     }
+/*media*/
+
+
